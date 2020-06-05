@@ -5,10 +5,8 @@
 @outputs Cursor Line:string LineTexts:array
 @trigger 
 #[
-
-	Made by Xandertron5000 - STEAM_0:1:42942061 - github.com/Xandertron
-	Some things may be broken.
-
+    Made by Xandertron5000 - STEAM_0:1:42942061 - github.com/Xandertron
+    Some things may be broken.
 ]#
 interval(350)
 if(duped()|dupefinished()){reset()}

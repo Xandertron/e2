@@ -5,12 +5,10 @@
 @persist Res PPM:string SD:vector PPMF:string Saving AOL AS GRS Lights:array
 @model models/dav0r/camera.mdl
 #[
-
-  Made by Xandertron5000 with help from many others ;) - STEAM_0:1:42942061 - github.com/Xandertron
-  I'm releasing this due to the small amount of info out there on how to do things. Like godrays, 
-  transparency, ppm file format, and ambient occlusion.
-  Some things may be broken, unstable, or just plain mean (fuck you transparency) :^)
-
+    Made by Xandertron5000 with help from many others ;) - STEAM_0:1:42942061 - github.com/Xandertron
+    I'm releasing this due to the small amount of info out there on how to do things. Like godrays, 
+    transparency, ppm file format, and ambient occlusion.
+    Some things may be broken, unstable, or just plain mean (fuck you transparency) :^)
 ]#
 if(first()){
     runOnTick(1)

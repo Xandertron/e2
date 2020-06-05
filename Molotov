@@ -5,7 +5,7 @@
 @trigger 
 @model models/props_junk/garbage_glassbottle003a.mdl
 #[
-  Made by Xandertron5000 - STEAM_0:1:42942061 - github.com/Xandertron
+    Made by Xandertron5000 - STEAM_0:1:42942061 - github.com/Xandertron
 ]#
 runOnTick(1)
 if(first()){

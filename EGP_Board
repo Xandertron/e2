@@ -4,7 +4,9 @@
 @outputs Menu
 @trigger U
 @autoupdate
-#Xandertron5000 - STEAM_0:1:42942061 - github.com/Xandertron
+#[
+    Xandertron5000 - STEAM_0:1:42942061 - github.com/Xandertron
+]#
 interval(800)
 if(dupefinished()|duped()){reset()}
 if(first()){

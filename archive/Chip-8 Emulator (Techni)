@@ -4,7 +4,7 @@
 @persist Colour [Cart Mode LastSaid]:string K K2 SoundPlay Clock Owner:entity#E2 Vars
 #[
     Probably made by Techni? Reuploading here from an old article about it to prevent loss. :)
-    #176-178 had mtables, along with 3.
+    #180-182 had mtables, along with 3.
     Last i checked it still works
 ]#
 interval(20)

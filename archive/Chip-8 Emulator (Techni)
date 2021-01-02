@@ -3,9 +3,10 @@
 @persist PC J [V M Stack Video Input Games]:table Delay Sound #Chip-8 Vars
 @persist Colour [Cart Mode LastSaid]:string K K2 SoundPlay Clock Owner:entity#E2 Vars
 #[
-    Probably made by Techni? Reuploading here from an old article about it to prevent loss. :)
-    #180-182 had mtables, along with 3.
-    Last i checked it still works
+    Made by Techni. Reuploading here from an old article about it to prevent loss. :)
+    Every single table in here was a mtable, i assume it means metatable but who knows, had to rename to make it work
+    Last i checked it still works in 2019
+    (2021 update, checked again and the code is still in the wayback machine on the wiremod forums, but just incase ¯\_(ツ)_/¯)
 ]#
 interval(20)
 

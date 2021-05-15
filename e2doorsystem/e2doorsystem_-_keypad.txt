@@ -59,7 +59,7 @@ if(!LOCKED){
             if(changed(Ply:keyUse())&Ply:keyUse()&Ply:aimEntity()==KP&(!NOREPEAT)){#if e is hit
                 if(Players:exists(Ply:steamID())){
                     holoColor(2,vec(0,255,255))
-                    entity():soundPlay(1,2,"common/beep.wav")
+                    entity():soundPlay(1,2,"buttons/button3.wav")
                     NOREPEAT = 1
                     timer("clr",1750)
                     FadingDoor["Fade",number] = 1

@@ -87,7 +87,7 @@ if(first()){
         }
         return 0
     }
-    #Test = "god damnit what the fuck is wrong with you, fuck off you fucking faggot, god how fucking old are you, 10? get a fucking life loser lmao, and by the way, i have your credit card details so get hacked ayylmfao"
+    #Test = "god damnit what the fuck is wrong with you, fuck off you fucking dumbass, god how fucking old are you, 10? get a fucking life loser lmao, and by the way, i have your credit card details so get hacked ayylmfao"
     #print(Test)
     #print(Test:length())
     #print(validateString(Test:cleanString()))

@@ -32,9 +32,9 @@ if(first()){
     }
     printColor(vec(255),"-ballsocket to ballsocket the wheels and delete the e2
 -reset to reset the e2
-Press walk key (default left alt) to cycle modes
+Press walk key (default left alt) to cycle modes, press right click to select the prop
 
-Make sure your contraption is facing north!
+Make sure your contraption is facing north! You can find this by placing a spray down, it should face north
 ",vec(100,100,255),"Current Mode: ",vec(255),"Wheels")
     runOnChat(1)
     

@@ -19,6 +19,7 @@ if(first()){
     }
     #make a function to check if the ent is in the array
     function number entIsInArray(E:entity,A:array){
+        C=0
         for(I=1,A:count()){
             if(A[I,entity]==E){
                 return 1

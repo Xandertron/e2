@@ -7,6 +7,7 @@
 @autoupdate
 interval(10)
 if(first()|dupefinished()){
+printColor(vec(230,0,255),"[Controller]",vec(255),": Commands:\n#add <player>\n#addid <steamid>\n#remove <player>\n#removeid <steamid>\n#list\n#lockall\n#unlockall\n#backup")
     runOnChat(1)
     runOnLast(1)
     runOnFile(1)
@@ -15,7 +16,6 @@ if(first()|dupefinished()){
     GT["lockall",number] = 1
     GT["players",table] = table()
     #GT["players",table][owner():steamID(),number] = 1
-    #GT["players",table]["STEAM_0:0:438675464",number] = 1 #virus
     holoCreate(1)
     holoPos(1,entity():toWorld(entity():boxCenter()+vec(0,0,4)))
     holoModel(1,"models/holograms/icosphere.mdl")

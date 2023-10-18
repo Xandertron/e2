@@ -22,23 +22,42 @@
 
 
 #[
-INFO FOR GITHUB UPLOAD
-
-    This is the one e2 project ive worked the most on
-    The one where I bragged of it being 800-900 lines and only 50 cpu usage
-
-    It is indeed a chain of elseif, but doesnt matter, lua itself doesnt have switches, e2 is a table lookup, blah blah blah
-
-    While also being super super fucking mingy at face value, it is an execellent tool for backseat moderating, and I have gotten multiple people banned by using it to report people
-
-    If I spawned this on some random server, where people didnt know me, and admins checked it, I would have probably been banned
-
-    Afaik no admins have done so, or if they did, hi :)
-
-    I wanted to upload this for quite awhile, knowing I dont really code on gmod anymore, so here it is, in its full glory, for anyone to see
-
-    Also one last thing, this does log e2 names and shit which i may upload what ive collected over the years in a .zip, the only thing holding me back is wondering if it would be a good idea showing off what stupid shit people have done, or even me, oh well, see you then
-
+    INFO FOR GITHUB UPLOAD
+    tldr, old e2, old code, old style, writing a better one soon(tm)
+    
+    commands:
+    
+    ,goto <player> #teleport to a player
+    ,bring <player> #brings a player
+    ,return #goes to your previous location, sometimes...
+    ,gotopos <x> <y> <z> #teleports to a world coordinate
+    ,alttele #press alt to teleport to where your cursor is looking at, press right alt to teleport through walls
+    ,selfd #deletes the spawnpoint e2
+    ,reset #resets/reloads the spawnpoint e2
+    ,home #teleports you to the spawnpoint
+    ,ignite <player> <seconds> #sets a player on fire
+    ,explode <player> #explodes a player with a barrel prop
+    ,setwarp <name> #sets a warp
+    ,listwarp #lists warps
+    ,delwarp <name> #deletes a warp
+    ,exportwarp #exports a single warp into a string
+    ,importwarp <warpstring> #imports a warp from exportwarp
+    ,warp <name> warps to a warp
+    ,findbyclass <class> #counts things, try "prop_physics"
+    ,vanish <number> #various vanish modes, use a camera to see what they do
+    ,shield [case] #shield, case prevents crossbolts and pulse orbs
+    ,propcount [name] #counts props, give a player name to count theirs
+    ,spectate [name] #spectates a player
+    ,safespot #tries to put you on a random spot in the map, probably wont work
+    ,strip [name] #strips you or a player if you have admin
+    ,spawn #attempts to teleport you to a spawnpoint on the map, may not always work
+    ,masslog #disables or enables the e2 stats logger
+    ,reconnect #reconnects you
+    ,teleportbehind #nothing personal kid
+    ,bar <name> #welds a prop to a player, prevents them from building or moving
+    ,trustswho <name> #gets the friends or prop protection trusted players of a player
+    ,whotrusts <name> #opposite of the above
+    ,spawnat <mode> #home = spawnpoint, spawn = map spawn, death = where you died, pos = where you stand
 ]#
 
 

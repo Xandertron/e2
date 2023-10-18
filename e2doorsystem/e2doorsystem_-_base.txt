@@ -7,7 +7,7 @@
 @autoupdate
 interval(10)
 if(first()|dupefinished()){
-printColor(vec(230,0,255),"[Controller]",vec(255),": Commands:\n#add <player>\n#addid <steamid>\n#remove <player>\n#removeid <steamid>\n#list\n#lockall\n#unlockall\n#backup")
+    printColor(vec(230,0,255),"[Controller]",vec(255),": Commands:\n#add <player>\n#addid <steamid>\n#remove <player>\n#removeid <steamid>\n#list\n#lockall\n#unlockall\n#backup")
     runOnChat(1)
     runOnLast(1)
     runOnFile(1)

@@ -84,14 +84,14 @@ Clock--
             V[0xF,number] = (Temp < 0 ? 0 : 1)
             V[X,number] = Temp%0x100
             }
-            elseif (N == 6) {
-                V[0xF,number] = bAnd(V[X,number],1)
-                V[X,number] = bShr(V[X,number],1)
-            }
-            elseif (N == 7) {
-                Temp = V[Y,number] - V[X,number]
-                V[0xF,number] = (Temp < 0 ? 0 : 1)
-                V[X,number] = Temp%0x100
+        elseif (N == 6) {
+            V[0xF,number] = bAnd(V[X,number],1)
+            V[X,number] = bShr(V[X,number],1)
+        }
+        elseif (N == 7) {
+            Temp = V[Y,number] - V[X,number]
+            V[0xF,number] = (Temp < 0 ? 0 : 1)
+            V[X,number] = Temp%0x100
         }
         elseif (N == 0xE) {
             V[0xF,number] = (bAnd(V[X,number],0x80) == 0x80 ? 1 : 0)
